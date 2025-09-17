@@ -1,6 +1,6 @@
 # Low Rider CNC v4
 
-The LowRider CNC v4 is the V1 Engineering version of a CNC router that can handle up to full sheet material, or down to a small bench top material removal monster! 
+The LowRider CNC v4 is the V1 Engineering version of a CNC router that can handle up to full sheet material, or down to a small bench top material removal monster!
 
 ![!LR4 Fancy Picture](../img/lr4/lr4_neon.jpg)
 
@@ -14,13 +14,9 @@ The Beta team put in months of effort helping to refine and improve all aspects 
 * Easily removable from the table for storage.
 * Inexpensive hardware store conduit is the recommended rail. Rails ranging from 29.5mm (1" EMT) up to 32mm OD will work.
 * Many tool options, in terms of functionality and brands. Routers, laser, plasma, pens, etc. Blank DIY mount files are available to implement your own custom functionality.
-
 * Full Y axis squaring, Z axis leveling, and Z probing are standard for excellent precision and accuracy.
-
 * Works with any 5 driver board, though we have a purpose built Jackpot CNC Controller with excellent performance and usability.
-
 * Can be used with almost any firmware; Marlin, RepRap firmware, GRBL, FluidNC, GRBLHal, or others.
-
 * Want an idea of how long things take to build from [actual users?](https://forum.v1e.com/t/lr4-how-many-hours-to-build-lr4/45641/1)
 
 ![!LR4 Core Picture](../img/lr4/lr4_core.jpg)
@@ -28,22 +24,16 @@ The Beta team put in months of effort helping to refine and improve all aspects 
 ### Size and Shape
 
 * A typical build has a working volume of full sheet, 1/2 sheet, or quarter sheet. In the US that would be 8'x4', 4'x4', 4'x2'
-
 * A standard build would give you 50mm of Z cutting depth, or you can use a drop table to use all 100mm.
-
 * The CNC router can technically handle even larger sizes, but the smaller the build, the faster it can cut.
-
 * The single Y rail keeps the machine properly constrained while maintaining ease of use.
-
 * Two rails are extremely difficult to align. We made it so you don't have to mess with that.
-
 * Width (X axis or "Beam") should always be the shorter axis.
-
 
   * This CNC router is most rigid when working near the table surface, opposite of most conventional gantry CNC machines. So as your cut progresses (the lower you go), the machines rigidity increases.
 
 ![!LR4 Render](../img/lr4/LowRider4_Main.png){: loading=lazy width="600"}
- 
+
 ### Tool Options
 
 This is a CNC platform, so just about any tool can easily be mounted to the LowRider CNC. The most typical is a router or spindle, Diode laser, pen, or even a drag knife. The [Makita 700](https://amzn.to/3NgdqGg) series is available worldwide and highly recommended. Here is a link to the current tool mount collection on [Printables](https://www.printables.com/@V1Engineering/collections/1752399)
@@ -58,7 +48,7 @@ More details to the loosened restrictions can be found here on [the home page](h
 
 ## Parts Needed
 
-### Table 
+### Table
 
 Your table needs only be as fancy as a sheet of wood on a relatively flat, smooth surface. A CNC machine can self correct many of its own imperfections if needed. Typically, our tables only support the CNC and some material, so nothing heavy duty is required. Stability is the main goal of your table.
 
@@ -100,7 +90,7 @@ If you are in Germany or the EU, you can buy a set from [HaWiWe](https://hawiwe.
 
 #### DIY
 
-Printed parts files can be found at the links below 
+Printed parts files can be found at the links below
 
 [Printables.com](https://www.printables.com/model/1034840-lowrider-4-cnc){:target="_blank"}
 
@@ -114,63 +104,53 @@ Printed parts files can be found at the links below
 * 3 walls rectilinear or cubic infill for most parts. Thicker layers, since these are large parts, no more than 80% nozzle diameter to layer thickness ratio to keep steep walls working. For newbies: the printer files downloaded from the links above should have these settings by default, but its best to verify.
 * 200mmx200mmx190mm available build volume is needed to print these parts.
 
-!!! info 
+!!! info
 
-    Printer Skew calibration is suggested, we are trying to make sure parts are true vertical (90 degrees) and not tilted, this can be done easily with a carpenters square and a tall printed part. Or [Vector3D](https://vector3d.shop/products/calilantern-calibration){:target="blank"}, makes a wonderful tool. Skew calibration is enough size calibration should not be needed.
-    You can also print the two small parts, Z_Stub and Z_Nut to make sure they fit together easily and you can get the m5 nuts inserts before printing the larger parts.
+Printer Skew calibration is suggested, we are trying to make sure parts are true vertical (90 degrees) and not tilted, this can be done easily with a carpenters square and a tall printed part. Or [Vector3D](https://vector3d.shop/products/calilantern-calibration){:target="blank"}, makes a wonderful tool. Skew calibration is enough size calibration should not be needed.
+You can also print the two small parts, Z_Stub and Z_Nut to make sure they fit together easily and you can get the m5 nuts inserts before printing the larger parts.
 
 
+| QTY  | File Name              | Infill | Comment                             | Link                                                                                                                                                                                                                                                                                                                             |
+| ------ | ------------------------ | -------- | ------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1    | Core                   | 30%    |                                     |                                                                                                                                                                                                                                                                                                                                  |
+| 1    | YZ_Plate_Min           | 25%    |                                     |                                                                                                                                                                                                                                                                                                                                  |
+| 1    | YZ_Plate_Max           | 25%    |                                     |                                                                                                                                                                                                                                                                                                                                  |
+| 1    | FrontWheel_Min         | 20%    |                                     |                                                                                                                                                                                                                                                                                                                                  |
+| 1    | FrontWheel_Max         | 20%    |                                     |                                                                                                                                                                                                                                                                                                                                  |
+| 1    | BackWheel_Min          | 20%    |                                     |                                                                                                                                                                                                                                                                                                                                  |
+| 1    | BackWheel_Max          | 20%    |                                     |                                                                                                                                                                                                                                                                                                                                  |
+| 1    | Y_Belt_MinF            | 30%    |                                     |                                                                                                                                                                                                                                                                                                                                  |
+| 1    | Y_Belt_MinB            | 30%    |                                     |                                                                                                                                                                                                                                                                                                                                  |
+| 1    | Y_Belt_MaxF            | 30%    |                                     |                                                                                                                                                                                                                                                                                                                                  |
+| 1    | Y_Belt_MaxB            | 30%    |                                     |                                                                                                                                                                                                                                                                                                                                  |
+| 1    | Y_Belt_Max_Lock        | 30%    |                                     |                                                                                                                                                                                                                                                                                                                                  |
+| 1    | Y_Belt_Min_Tension     | 30%    |                                     |                                                                                                                                                                                                                                                                                                                                  |
+| 1    | Y_Belt_Min_Lock        | 30%    |                                     |                                                                                                                                                                                                                                                                                                                                  |
+| 1    | Y_Belt_Max_Tension     | 30%    |                                     |                                                                                                                                                                                                                                                                                                                                  |
+| 1    | ZStop_Min              | 30%    |                                     |                                                                                                                                                                                                                                                                                                                                  |
+| 1    | ZStop_Max              | 30%    |                                     |                                                                                                                                                                                                                                                                                                                                  |
+| 2    | Z_Nut                  | 30%    |                                     |                                                                                                                                                                                                                                                                                                                                  |
+| 1    | Z_Stub_Min             | 30%    |                                     |                                                                                                                                                                                                                                                                                                                                  |
+| 1    | Z_Stub_Max             | 30%    |                                     |                                                                                                                                                                                                                                                                                                                                  |
+| 1    | X_Belt                 | 30%    |                                     |                                                                                                                                                                                                                                                                                                                                  |
+| 4-6  | Brace_###              | 30%    | * See Brace note below              |                                                                                                                                                                                                                                                                                                                                  |
+| 1    | Brace_Max_###          | 60%    | * See Brace note below              |                                                                                                                                                                                                                                                                                                                                  |
+| 1-2  | Hose_Hook_##           | 30%    | 1 or 2 depending on your build      |                                                                                                                                                                                                                                                                                                                                  |
+| 1-2  | Hose_Holder_Hook       | 30%    | 1 or 2 depending on your build      |                                                                                                                                                                                                                                                                                                                                  |
+| 2    | Hose_Holder_Shorty     | 30%    |                                     |                                                                                                                                                                                                                                                                                                                                  |
+| 7-10 | Y_Clip_###             | 30%    | No more than 300mm center to center |                                                                                                                                                                                                                                                                                                                                  |
+| 4    | Temp Strut             | 15%    |                                     |                                                                                                                                                                                                                                                                                                                                  |
+|      | Tool Mount Set         |        |                                     |                                                                                                                                                                                                                                                                                                                                  |
+| 1    | Makita, DeWalt, Kobalt | 30%    | Print info in the part description  | [Makita][mak]https://www.printables.com/model/1033926-makita-701-tool-mount-and-dust-shoe-for-the-lowrid \| [DeWalt][dew]https://www.printables.com/model/1034374-dewalt-611-tool-mount-and-dust-shoe-for-the-lowrid \| [Kobalt][kob]https://www.printables.com/model/1034828-kobalt-tool-mount-and-dust-shoe-for-the-lowrider-c |
+| 1    | Board Box              | 20%    |                                     | [Jackpot][jac]https://www.printables.com/model/1037842-jackpot-cnc-control-box-for-the-lowrider-4-cnc \| [SKR Pro][skr]https://www.printables.com/model/1051517-skr-pro-box-for-the-lowrider-4-cnc                                                                                                                               |
 
-|QTY |File Name                   |Infill |Comment                              |Link                                     | 
-|----|----------------------------|-----|-------------------------------------|-----------------------------------------|
-|1   |Core                        |30%  |                                     |                                         |
-|1   |YZ_Plate_Min                |25%  |                                     |                                         |
-|1   |YZ_Plate_Max                |25%  |                                     |                                         |
-|1   |FrontWheel_Min              |20%  |                                     |                                         |
-|1   |FrontWheel_Max              |20%  |                                     |                                         |
-|1   |BackWheel_Min               |20%  |                                     |                                         |
-|1   |BackWheel_Max               |20%  |                                     |                                         |
-|1   |Y_Belt_MinF                 |30%  |                                     |                                         |
-|1   |Y_Belt_MinB                 |30%  |                                     |                                         |
-|1   |Y_Belt_MaxF                 |30%  |                                     |                                         |
-|1   |Y_Belt_MaxB                 |30%  |                                     |                                         |
-|1   |Y_Belt_Max_Lock             |30%  |                                     |                                         |
-|1   |Y_Belt_Min_Tension          |30%  |                                     |                                         |
-|1   |Y_Belt_Min_Lock             |30%  |                                     |                                         |
-|1   |Y_Belt_Max_Tension          |30%  |                                     |                                         |
-|1   |ZStop_Min                   |30%  |                                     |                                         |
-|1   |ZStop_Max                   |30%  |                                     |                                         |
-|2   |Z_Nut                       |30%  |                                     |                                         |
-|1   |Z_Stub_Min                  |30%  |                                     |                                         |
-|1   |Z_Stub_Max                  |30%  |                                     |                                         |
-|1   |X_Belt                      |30%  |                                     |                                         |
-|4-6 |Brace_###                   |30%  | * See Brace note below              |                                         |
-|1   |Brace_Max_###               |60%  | * See Brace note below              |                                         |
-|1-2 |Hose_Hook_##                |30%  | 1 or 2 depending on your build      |                                         |
-|1-2 |Hose_Holder_Hook            |30%  | 1 or 2 depending on your build      |                                         |
-|2   |Hose_Holder_Shorty          |30%  |                                     |                                         |
-|7-10|Y_Clip_###                  |30%  | No more than 300mm center to center |                                         |
-|4   | Temp Strut                 |15%  |                                     |                                         |
-|    |Tool Mount Set              |     |                                     |                                         |
-|1   |Makita, DeWalt, Kobalt      |30%  | Print info in the part description  |[Makita][mak] \| [DeWalt][dew] \| [Kobalt][kob]|
-|1   |Board Box                   |20%  |                                     |[Jackpot][jac] \| [SKR Pro][skr]            |
- 
-[mak]: https://www.printables.com/model/1033926-makita-701-tool-mount-and-dust-shoe-for-the-lowrid
-[dew]: https://www.printables.com/model/1034374-dewalt-611-tool-mount-and-dust-shoe-for-the-lowrid
-[kob]: https://www.printables.com/model/1034828-kobalt-tool-mount-and-dust-shoe-for-the-lowrider-c
-[jac]: https://www.printables.com/model/1037842-jackpot-cnc-control-box-for-the-lowrider-4-cnc
-[skr]: https://www.printables.com/model/1051517-skr-pro-box-for-the-lowrider-4-cnc
-
- * Wire sleeve is nice but not needed [Shop](https://www.v1e.com/products/wire-sleeve?_pos=1&_sid=1a54ba9cd&_ss=r), [Amazon](https://amzn.to/3EDzb1H).
-
- * "###" = various Sizes
-
- * Brace note- Print Brace_Max_### and one Brace_### at 60% infill. These will be the end braces and benefit from added rigidity.
-
- * If a part name if followed by a version number use the highest one. V1, V2, V3... Means there was a fix or edit, a bigger number means newer part.
+* Wire sleeve is nice but not needed [Shop](https://www.v1e.com/products/wire-sleeve?_pos=1&_sid=1a54ba9cd&_ss=r), [Amazon](https://amzn.to/3EDzb1H).
+* "###" = various Sizes
+* Brace note- Print Brace_Max_### and one Brace_### at 60% infill. These will be the end braces and benefit from added rigidity.
+* If a part name if followed by a version number use the highest one. V1, V2, V3... Means there was a fix or edit, a bigger number means newer part.
 
 !!! Warning
-     Repetier, Slic3r, Prusa Slicer, Orca, Bambu, all seem to slice normally. Cura based slicers seem to work a little different. Make sure the parts are aligned on your bed as they appear in the Printables thumbnails. Bridging also seems to be a bit of an issue for some of the internal overhangs. It is best to check the "Dust Skirt" and "YZ_Plate" internal features after slicing to be certain the bridges are bridging the short way, not the long way. Repetier\PrusaSlicer based slicers have been tested to work as expected.
+Repetier, Slic3r, Prusa Slicer, Orca, Bambu, all seem to slice normally. Cura based slicers seem to work a little different. Make sure the parts are aligned on your bed as they appear in the Printables thumbnails. Bridging also seems to be a bit of an issue for some of the internal overhangs. It is best to check the "Dust Skirt" and "YZ_Plate" internal features after slicing to be certain the bridges are bridging the short way, not the long way. Repetier\PrusaSlicer based slicers have been tested to work as expected.
 
 ![!LR4 JJ's Picture](../img/lr4/JJs.jpeg){: loading=lazy width="600"}
 
@@ -194,12 +174,11 @@ Strut plates give the X axis beam it's rigidity. You are meant to assemble the m
 * Click the link to download `strut_plate.svg`. More on what to do with this later!
 * His site has all sorts of other helpful things linked on other Docs pages.
 
-
 ![!LR4 strut plate Picture](../img/lr4/strut.png){: loading=lazy width="600"}
 
-Extra Info:  
+Extra Info:
 
-The Wings are referring to the parts that make the plate nearly touch the rails to fill in the gaps. 
+The Wings are referring to the parts that make the plate nearly touch the rails to fill in the gaps.
 
 A full sheet build normally has 7 braces.
 
@@ -211,7 +190,7 @@ XZ Plates connect your X axis beam to your YZ plates.
 
 The easiest option for most people, are the metal XZ plates from the [V1E.com shop](https://www.v1e.com/products/lowrider-4-aluminium-xz-plates).
 
-Other options: 
+Other options:
 
 You can cut your own metal plates with the DXF files found with the printed parts files linked above. Aluminum or steel 1/4" (6.35mm) thick material is suggested to work well with the hardware as is. If you want to use thicker or thinner material you will need to adjust the 16 M3x10mm screw length to compensate.
 
@@ -221,59 +200,28 @@ There is a file for [printable XZ plates](https://https://www.printables.com/mod
 
 You can buy most of the specialty parts and hardware here, [V1 Shop](https://www.v1e.com/products/lowrider-v4-hardware-kit){:target="_blank"}
 
-|QTY  |Description             |Comment                                        |Link                        | 
-|-----|------------------------|-----------------------------------------------|----------------------------|
-|1    |Control Board           |5 driver minimum, Jackpot suggested            |[Shop][sh1] – [Elecrow][az1]|
-|5    |Steppers, Nema17        |20mm+ shaft length                             |[Shop][sh2] – [Amazon][az2]|
-|3    |stepper wire extenders  |                                               |[Shop][sh3] – [Amazon][az3]|
-|3    |Pulleys 16T 10mm        |10mm GT2 16 Tooth                              |[Shop][sh4] – [Amazon][az4]|
-|6    |Idlers Smooth 20T       |20T Smooth 5mm Bore                            |[Shop][sh5] – [Amazon][az5]|
-|8M   |Belt GT2 10mm           |See [Calculator](calculator.md), no steel belt |[Shop][sh6] – [Amazon][az6]|
-|5    |Endstops                |                                               |[Shop][sh7] – [Amazon][az7]|
-|14   |608-2RS Bearings        |                                               |[Shop][sh8] – [Amazon][az8]|
-|2    |T8 Leadscrew & nut      |145mm or larger, 4 start 2mm pitch, 8mm/Rev    |[Shop][sh9] – [Amazon][az9]|
-|2    |Coupler                 |8mm to 5mm                                     |[Shop][sh10] – [Amazon][az10]|
-|4    |Linear rails MGN        |MGN12H 150mm                                   |[Shop][sh11] – [Amazon][az11]|
-|1    |Power Supply            |9-24V Board dependent 36W+                     |[Shop][sh12] – [Amazon][az12]|
-|*    |Thread locker           |Optional for grubs screws                      |[Shop][sh13] – [Amazon][az13]|
-|*    |Lube                    |Optional for idlers and linear rails           |[Shop][sh14] – [Amazon][az14]|
-|*    |Vac Hose                |Optional 2.5" (70mm) OD Vacuum hose steel rib  | – [Amazon][az15]|
 
-[sh1]: https://www.v1e.com/products/jackpot-cnc-controller
-[sh2]: https://www.v1e.com/collections/3dprinter-parts/products/nema-17-76oz-in-steppers
-[sh3]: https://www.v1e.com/products/wiring-kit-1
-[sh4]: https://www.v1e.com/collections/3dprinter-parts/products/pulley-16-tooth-gt2-10mm
-[sh5]: https://www.v1e.com/collections/3dprinter-parts/products/20t-idler-gt2-10mm 
-[sh6]: https://www.v1e.com/collections/3dprinter-parts/products/gt2-10mm-belt
-[sh7]: https://www.v1e.com/collections/parts/products/limit-switch-endstop
-[sh8]: https://www.v1e.com/collections/lowrider-parts/products/bearings-608-2rs 
-[sh9]: https://www.v1e.com/products/lowrider-v4-cnc-t8-leadscrews
-[sh10]: https://www.v1e.com/collections/lowrider-parts/products/5mm-to-8mm-flex-coupler
-[sh11]: https://www.v1e.com/products/150mm-mgn12h-linear-guides
-[sh12]: https://www.v1e.com/products/24v-power-supply
-[sh13]: https://www.v1e.com/collections/3dprinter-parts/products/0-5ml-threadlocker-242
-[sh14]: https://www.v1e.com/collections/3dprinter-parts/products/super-lube-silicone-lubricating-grease-with-syncolon-ptfe 
-
-[az1]: https://www.elecrow.com/jackpot-cnc-controller.html
-[az2]: https://amzn.to/3FcxGlE
-[az3]: https://amzn.to/3BJMgov
-[az4]: https://amzn.to/3n9mUGM
-[az5]: https://amzn.to/4dRxh9L 
-[az6]: https://amzn.to/48cO4mt
-[az7]: https://amzn.to/396oRzi
-[az8]: https://amzn.to/3FDI8EI 
-[az9]: https://amzn.to/4eDgHLN
-[az10]: https://amzn.to/4etRhjC 
-[az11]: https://amzn.to/3PyAujr
-[az12]: https://amzn.to/3TXtjoM
-[az13]: https://amzn.to/3GhaKmx
-[az14]: https://amzn.to/31H7yS6
-[az15]: https://amzn.to/47V20Ba
+| QTY | Description            | Comment                                       | Link                                                                                                                                                                    |
+| ----- | ------------------------ | ----------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | Control Board          | 5 driver minimum, Jackpot suggested           | [Shop][sh1]https://www.v1e.com/products/jackpot-cnc-controller – [Elecrow][az1]https://www.elecrow.com/jackpot-cnc-controller.html                                     |
+| 5   | Steppers, Nema17       | 20mm+ shaft length                            | [Shop][sh2]https://www.v1e.com/collections/3dprinter-parts/products/nema-17-76oz-in-steppers – [Amazon][az2]https://amzn.to/3FcxGlE                                    |
+| 3   | stepper wire extenders |                                               | [Shop][sh3]https://www.v1e.com/products/wiring-kit-1 – [Amazon][az3]https://amzn.to/3BJMgov                                                                            |
+| 3   | Pulleys 16T 10mm       | 10mm GT2 16 Tooth                             | [Shop][sh4]https://www.v1e.com/collections/3dprinter-parts/products/pulley-16-tooth-gt2-10mm – [Amazon][az4]https://amzn.to/3n9mUGM                                    |
+| 6   | Idlers Smooth 20T      | 20T Smooth 5mm Bore                           | [Shop][sh5]https://www.v1e.com/collections/3dprinter-parts/products/20t-idler-gt2-10mm – [Amazon][az5]https://amzn.to/4dRxh9L                                          |
+| 8M  | Belt GT2 10mm          | See[Calculator](calculator.md), no steel belt | [Shop][sh6]https://www.v1e.com/collections/3dprinter-parts/products/gt2-10mm-belt – [Amazon][az6]https://amzn.to/48cO4mt                                               |
+| 5   | Endstops               |                                               | [Shop][sh7]https://www.v1e.com/collections/parts/products/limit-switch-endstop – [Amazon][az7]https://amzn.to/396oRzi                                                  |
+| 14  | 608-2RS Bearings       |                                               | [Shop][sh8]https://www.v1e.com/collections/lowrider-parts/products/bearings-608-2rs – [Amazon][az8]https://amzn.to/3FDI8EI                                             |
+| 2   | T8 Leadscrew & nut     | 145mm or larger, 4 start 2mm pitch, 8mm/Rev   | [Shop][sh9]https://www.v1e.com/products/lowrider-v4-cnc-t8-leadscrews – [Amazon][az9]https://amzn.to/4eDgHLN                                                           |
+| 2   | Coupler                | 8mm to 5mm                                    | [Shop][sh10]https://www.v1e.com/collections/lowrider-parts/products/5mm-to-8mm-flex-coupler – [Amazon][az10]https://amzn.to/4etRhjC                                    |
+| 4   | Linear rails MGN       | MGN12H 150mm                                  | [Shop][sh11]https://www.v1e.com/products/150mm-mgn12h-linear-guides – [Amazon][az11]https://amzn.to/3PyAujr                                                            |
+| 1   | Power Supply           | 9-24V Board dependent 36W+                    | [Shop][sh12]https://www.v1e.com/products/24v-power-supply – [Amazon][az12]https://amzn.to/3TXtjoM                                                                      |
+| *   | Thread locker          | Optional for grubs screws                     | [Shop][sh13]https://www.v1e.com/collections/3dprinter-parts/products/0-5ml-threadlocker-242 – [Amazon][az13]https://amzn.to/3GhaKmx                                    |
+| *   | Lube                   | Optional for idlers and linear rails          | [Shop][sh14]https://www.v1e.com/collections/3dprinter-parts/products/super-lube-silicone-lubricating-grease-with-syncolon-ptfe – [Amazon][az14]https://amzn.to/31H7yS6 |
+| *   | Vac Hose               | Optional 2.5" (70mm) OD Vacuum hose steel rib | –[Amazon][az15]https://amzn.to/47V20Ba                                                                                                                                 |
 
 As an Amazon Associate, I earn from qualifying purchases.
 
 * Vac Hoses need to be grounded at one end. Using a steel ribbed hose makes this very easy to use the ground port from your power source. If you use a non-conductive vac hose you can run a bare wire through the hose secure at one end and ground at the other. If you do not ground your hose static will build up and can damage your control board or other components.
-
 
 ### Hardware
 
@@ -291,63 +239,88 @@ M8 or 5/16 should be hex head bolts.
 | 10  | M2.5 x 12mm Machine Screws, Button Head | Must be metric                                  |
 | *18 | M4 x 12mm+ Wood/metal                   | #8 x 1/2"+ Screws to mount things to your table |
 
-_* Not included in the hardware kit. You might also want different lengths to accommodate different material thickness._ 
+_* Not included in the hardware kit. You might also want different lengths to accommodate different material thickness._
 
 #### Update and conversion info
+
 ??? abstract "Click here for required hardware for converting older LowRiders or your MPCNC to an LR4"
 
-    **LR3 to LR4 hardware differences for updating your build**
+**LR3 to LR4 hardware differences for updating your build**
 
-    Lr3 to Lr4 Upgrade kit is available here in the [V1E.com shop](https://www.v1e.com/products/lowrider-v3-to-lowrider-v4-hardware-upgrade-kit){:target="_blank"}.
+Lr3 to Lr4 Upgrade kit is available here in the [V1E.com shop](https://www.v1e.com/products/lowrider-v3-to-lowrider-v4-hardware-upgrade-kit){:target="_blank"}.
 
-    |QTY  |Description             |Notes                                 | 
-    |-----|------------------------|-----------------------------------------------|
-    |39   |M3 x 10mm               |                                               |
-    |2    |145mm+ Leadscrews       |                                               |
-    |set  |XZ Plates               |                                               |
-    |~8m  |10mm belt               |Use the calc for accurate length for your build |
 
-    ---
+| QTY | Description       | Notes                                           |
+| ----- | ------------------- | ------------------------------------------------- |
+| 39  | M3 x 10mm         |                                                 |
+| 2   | 145mm+ Leadscrews |                                                 |
+| set | XZ Plates         |                                                 |
+| ~8m | 10mm belt         | Use the calc for accurate length for your build |
 
-    **LR2 to LR4 hardware differences for updating your build**
+---
 
-    |QTY  |Description             |Notes                                 | 
-    |-----|------------------------|-----------------------------------------------|
-    |14   |5/16x1.5" (8mm bolts)   |                                               |
-    |14   |5/16 (8mm) nuts         |                                               |
-    |54   |M5x30mm screws          |                                               |
-    |54   |M5 nut                  |                                               |
-    |10   |M2.5x12mm               |                                               |
-    |59   |M3 x 10mm               |                                               |
-    |5    |endstops                |                                               |
-    |4    |linear rails            |                                               |
-    |set  |XZ Plates               |                                               |
-    |~8m  |10mm belt               |Use the calc for accurate length for your build |
-     
-    * 5 driver control board is recommended
-    * Updating to a 24v Power supply is also recommended if you only have a 12V.
-    ---
-    
-    **MPCNC Primo to LR4 hardware differences for converting your build**
+**LR2 to LR4 hardware differences for updating your build**
 
-    |QTY  |Description             |Notes                                 | 
-    |-----|------------------------|-----------------------------------------------|
-    |61   |M3 x 10mm               |                                               |
-    |2    |M2.5 x 12mm             |                                               |
-    |1    |Endstop                 |                                               |
-    |1    |145mm+ Lead screws      |You can use the one you have and add one       |
-    |1    |Coupler                 |8mm to 5mm                                     |
-    |4    |Linear rails MGN        |MGN12H 150mm                                   |
-    |set  |XZ Plates               |                                               |
-    |~8m  |10mm belt               |Use the calc for accurate length for your build |
-    
-    * 5 driver control board is recommended
-    * Updating to a 24v Power supply is also recommended if you only have a 12V.
-    ---
+
+| QTY | Description           | Notes                                           |
+| ----- | ----------------------- | ------------------------------------------------- |
+| 14  | 5/16x1.5" (8mm bolts) |                                                 |
+| 14  | 5/16 (8mm) nuts       |                                                 |
+| 54  | M5x30mm screws        |                                                 |
+| 54  | M5 nut                |                                                 |
+| 10  | M2.5x12mm             |                                                 |
+| 59  | M3 x 10mm             |                                                 |
+| 5   | endstops              |                                                 |
+| 4   | linear rails          |                                                 |
+| set | XZ Plates             |                                                 |
+| ~8m | 10mm belt             | Use the calc for accurate length for your build |
+
+* 5 driver control board is recommended
+* Updating to a 24v Power supply is also recommended if you only have a 12V.
+
+---
+
+**MPCNC Primo to LR4 hardware differences for converting your build**
+
+
+| QTY | Description        | Notes                                           |
+| ----- | -------------------- | ------------------------------------------------- |
+| 61  | M3 x 10mm          |                                                 |
+| 2   | M2.5 x 12mm        |                                                 |
+| 1   | Endstop            |                                                 |
+| 1   | 145mm+ Lead screws | You can use the one you have and add one        |
+| 1   | Coupler            | 8mm to 5mm                                      |
+| 4   | Linear rails MGN   | MGN12H 150mm                                    |
+| set | XZ Plates          |                                                 |
+| ~8m | 10mm belt          | Use the calc for accurate length for your build |
+
+* 5 driver control board is recommended
+* Updating to a 24v Power supply is also recommended if you only have a 12V.
+
+---
 
 ## Assembling the Lowrider 4 CNC machine:
 
-Ready to start your build? Relax, have fun, if you have issues just stop and ask in the forums. Taking a step back and asking a couple questions can save a ton of headaches. Hand tools only, power tools just get you into trouble here.
+Ready to start your build? Relax, have fun, and if you have issues just stop and ask in the forums. Taking a step back and asking a couple questions can save a ton of headaches. Hand tools only, power tools just get you into trouble here.
+
+**Tools needed for assembly:**
+
+* 5”+ long Philips head screwdriver
+* 5”+ long flat head screwdriver
+* Needle nose pliers
+* Wire crimper
+* Measuring tape
+* Zip ties of various sizes
+* 8mm socket wrench
+
+Optional but recommended:
+
+* Purple thread locker
+* Speed Square
+* 4ft spirit level
+* Masking tape
+* Fine point felt pen (Sharpie)
+* Channel lock pliers
 
 ![!LR4 Core assm](../img/lr4/cx.jpg){: loading=lazy width="600"}
 
@@ -364,6 +337,8 @@ Here is a users build video showing this process.
 * Bearings should drop into the pockets
 * Bolts get inserted in the direction shown
 * Snug these two up just enough to seat the bolt heads, no need to crush anything, these are just bearing axles.
+
+`Pro tip: before installing a bolt, hold the nut in a pair of pliers and and turn the bolt into the nut a few turns. Back it out, and then install the bolt + nut. The nylock washers can be tough and this makes them much easier (and reduces risk of damage to plastic parts).`
 
 ---
 
@@ -399,6 +374,8 @@ Here is a users build video showing this process.
 
 * This step is using a piece of filament to lock in the tool holder nuts
 
+`Pro tip: Use the face/portrait to orient yourself when viewing pictures, "up" is "up" in the images above and below.`
+
 ---
 
 ![!LR4 Core assm](../img/lr4/cf.jpg){: loading=lazy width="600"}
@@ -433,7 +410,7 @@ Here is a users build video showing this process.
 ![!LR4 Core assm](../img/lr4/cj.jpg){: loading=lazy width="600"}
 
 * Snug these up real good, but don't break anything.
-* Not sure if it matters for tool tramming but I always get all 4 screws close then fully tighten the left screws first on both top and bottom mounts
+* Not sure if it matters for tool tramming but I always get all 4 screws close then fully tighten the left screws first on both top and bottom mounts.
 * If you do need to tram your tool later usually a couple layers of tape as a shim under these mounts will do the trick
 
 ---
@@ -481,51 +458,55 @@ Here is a users build video showing this process.
 * Plug in the X endstop
 * This uses the M2.5mm screws.
 
+`Pro tip: Apply purple thread locker to screws. It prevents screws coming loose from vibration while still allowing relatively easy removal. Entirely optional.`
+
 ---
 
 ![!LR4 Core assm](../img/lr4/cq.jpg){: loading=lazy width="600"}
 
-* Lever opens to the bottom
+* Lever opens to the bottom.
 * Seat these tiny screws all the way but be very careful not to strip them out.
+* You may notice another microswitch opening on the opposite end of the core. It is for an advanced feature and is not used in this tutorial, it can be safely ignored.
 
 ---
 
 ![!LR4 Core assm](../img/lr4/cr.jpg){: loading=lazy width="600"}
 
-* Using the belt guide on the back of the core set the pulley on the X stepper shaft.
+* Using the belt guide on the back of the core, set the pulley on the X stepper shaft.
 * Always tighten the set / grub screw on the shaft flat first, then the second screw.
 
 ---
 
 ![!LR4 Core assm](../img/lr4/cs.jpg){: loading=lazy width="600"}
 
-* M3 screws will be used to attach the stepper
-* If you insert the X belt now it saves a bit of work later
-* Run all the wires together up from behind the stepper
-* The wires should not be constricted
+* M3 screws will be used to attach the stepper.
+* If you insert the X belt now it saves a bit of work later.
+* Run all the wires together up from behind the stepper.
+* The wires should not be constricted.
 
 ---
 
 ![!LR4 Core assm](../img/lr4/ct.jpg){: loading=lazy width="600"}
 
-* Secure the wires up at the top of the core
-* The next step is using the idlers and M5 hardware
+* Secure the wires up at the top of the core.
+* The small holes at the top are perfect for twist ties.
+* The next step is using the idlers and M5 hardware.
 
 ---
 
 ![!LR4 Core assm](../img/lr4/cu.jpg){: loading=lazy width="600"}
 
-* Insert the M5 nuts
+* Insert the M5 nuts.
 * I can usually press them in with a flat headed screwdriver or needle nosed pliers.
 
 ---
 
 ![!LR4 Core assm](../img/lr4/cv.jpg){: loading=lazy width="600"}
 
-* Add the idlers, and screws
-* Using the holes in the top of the core drive the screws
-* These just need to hit the Nylock, they do not need to be snug
-* The idlers should be extremely free to rotate
+* Add the idlers, and screws.
+* Using the holes in the top of the core drive the screws.
+* These just need to hit the Nylock, they do not need to be snug.
+* The idlers should be extremely free to rotate.
 
 ---
 
@@ -683,11 +664,9 @@ Start the YZ plates.
 
 !!! warning
 
-    From this point on, be cautious not to snag the little lever on anything.
-    You can hang the wheels and lever off the edge of the table if needed.
-
-
----
+From this point on, be cautious not to snag the little lever on anything.
+You can hang the wheels and lever off the edge of the table if needed.
+----------------------------------------------------------------------
 
 ![!LR4 yz assm](../img/lr4/yzw4.jpg){: loading=lazy width="600"}
 
@@ -715,7 +694,7 @@ Start the YZ plates.
 
 ![!LR4 yz assm](../img/lr4/yzz1.jpg){: loading=lazy width="600"}
 
-* Use the guide on the top of the YZ plate to align the coupler.
+* Use the guide on the top of the YZ plate to align the coupler. Please note that there are two different sized openings on either side.
 * Use the small furthest line
 * Make sure the stepper is on the endstop side of the plate.
 * Tighten the set/grub screw on the flat first, the other.
@@ -740,15 +719,14 @@ Start the YZ plates.
 
 ![!LR4 yz assm](../img/lr4/yzz3.jpg){: loading=lazy width="600"}
 
-* Use the sharp edge of the Linear rail to chisel the rail bed smooth.
-* Any print artifacts, blobs, or rough spots, should just come right off.
-* This simple step makes both rails sit on the printed parts better preventing twists of any kind.
+* Use a bit of sandpaper to file down the plastic around the mounting holes. This makes it easier to ensure the rail is flat once screwed in.
+* Be extremely careful with the linear guides, if they slide off the rail, you will lose the tiny bearings inside of it.
 
 ---
 
 ![!LR4 yz assm](../img/lr4/yzz4.jpg){: loading=lazy width="600"}
 
-* Notice the Y endstop hanging off the table as to not bother the small lever.
+* Notice the Y endstop hanging off the table as to not bother the small lever of the microswitch.
 * Loosely add all the M3 screws to the linear rails, get the heads just under the rail surface.
 * Keep an eye out for off center M3 screw heads, they can be sneaky and make this next step harder.
 
@@ -810,8 +788,8 @@ Start the YZ plates.
 ![!LR4 yz assm](../img/lr4/yzs7.jpg){: loading=lazy width="600"}
 
 * Snug in the Z stubs using the two M5 screws.
-* For some this is tricky, Z Binding, the Z stubs should be perpendicular to the lead screw. If you have a tilt/twist, the Z screw can have some binding.
-* After you snug the Z stubs make sure the nut moves easy as you twist it up and down with your fingers with a little pressure on the metal plate.
+* The Z stubs should be perpendicular to the lead screw. If you have a tilt/twist, the Z screw can have some binding (difficulty moving).
+* After you snug the Z stubs make sure the nut moves easily as you twist it up and down with your fingers with a little pressure on the metal plate.
 * Leave out the cross tensioner screws, most people will not use these.
 * Make sure the Z_nut is already in place.
 
@@ -828,7 +806,7 @@ Start the YZ plates.
 ![!LR4 yz assm](../img/lr4/yzw8.jpg){: loading=lazy width="600"}
 
 * Be sure to pre-thread the nut on to the screw to loosen up the lock nut before assembly. More than once can help as well.
-* Slow and easy on the next step. Make sure not to cross thread the nut is it gets moved and ends up crooked.
+* Slow and easy on the next step. Make sure not to cross thread the nut, if it gets moved and ends up crooked.
 
 ---
 
@@ -862,6 +840,7 @@ Start the YZ plates.
 * How did you do, wanna yell at me or did you have fun?
 * Now is a great time to take a photo and share it.
 * You are building a robot that will hold a power tool, everyone needs to hear about that.
+* Consider making a [Build Thread on the forum](https://forum.v1e.com/c/lowrider/your-builds-lowrider/30) and tell us how it's going! Unlike your friends IRL, we never get tired of talking about these things ;)
 
 ---
 
@@ -930,8 +909,8 @@ Start the YZ plates.
 
 ![!LR4 main assm](../img/lr4/ma1.jpg){: loading=lazy width="600"}
 
-* Screw together the YZ max assembly to the beam.
-* These 3 screws get snugged down.
+* Screw together the YZ max assembly to the beam with the 3 long bolts in the image above.
+* Look at the other side of the YZ max assembly, there are 3 holes going all the way through it. Raise it to the correct height and the holes will line up. You can insert the bolts straight through with your screw driver.
 * It tends to be easier to hold them with the screwdriver and use a wrench to tighten the nuts.
 * Snug....don't crush. It is very easy to leave them a bit light and check them again later.
 
@@ -982,7 +961,7 @@ Start the YZ plates.
 
 ![!LR4 main assm](../img/lr4/ma8.jpg){: loading=lazy width="600"}
 
-* Okay now is a good time to make sure your heal toe measurements are equal.
+* Okay now is a good time to make sure your heel toe measurements are equal.
 * Roughly set the beam level by turning the Z axis leadscrews, one side is different so the side plates will be at different heights.
 * Simply measure across the front of your machine from the side plates (not the wheels as those can move).
 
@@ -1044,7 +1023,7 @@ Start the YZ plates.
 
 ![!LR4 Wire Routing](../img/lr4/w5.jpg){: loading=lazy width="600"}
 
-* Fold each wire up on itself secure and make a nice bundle. 
+* Fold each wire up on itself secure and make a nice bundle.
 
 ---
 
@@ -1053,7 +1032,6 @@ Start the YZ plates.
 * Extensions secured into place.
 * Wires connected to the control board.
 * You can run the wires along the top as show, helps with dust management, or along the bottom.
-
 
 ---
 
@@ -1095,7 +1073,7 @@ Start the YZ plates.
 * The picture shows an easy way to route the wires and hose together. The wires cross under the hose after the middle brace.
 * Secure the wires to the hose just after each hose hook. You can secure them either just above the hose hook or in the corner. Both are shown in this picture.
 * It is best to pass the wires under the hose at the middle position, not over as it can snag.
-* The hose and wires are secured to the middle hose hook part, cable ties or tape will work. 
+* The hose and wires are secured to the middle hose hook part, cable ties or tape will work.
 
 ---
 
@@ -1182,7 +1160,6 @@ Start the YZ plates.
 
 * Trick for marking the holes is an over sharpened pencil
 
-
 ---
 
 ![!LR4 Belts](../img/lr4/yr4.jpg){: loading=lazy width="600"}
@@ -1190,7 +1167,6 @@ Start the YZ plates.
 * Both ends get set and pre-drilled.
 
 ---
-
 
 ![!LR4 Belts](../img/lr4/yr4b.jpg){: loading=lazy width="600"}
 
@@ -1512,7 +1488,7 @@ You will want to cut each plate as close to the side of your build as you can to
 
 ![!Strut Plates](../img/lr4/ht1.jpg){: loading=lazy width="600"}
 
-* Okay now is a good time to double check your heal toe measurements are equal.
+* Okay now is a good time to double check your heel toe measurements are equal.
 * Simply measure across the front of your machine
 
 ![!Strut Plates](../img/lr4/ht2.jpg){: loading=lazy width="600"}
@@ -1535,3 +1511,38 @@ At this point you are done, you have a fully functional machine! How cool is tha
 Now that you have a V1 Engineering CNC Machine how about you put a [little pin in our map](https://www.v1e.com/blogs/news/user-map)!?!
 
 ## Go get it dirty, be safe, have fun!
+
+[sh5]: https://www.v1e.com/collections/3dprinter-parts/products/20t-idler-gt2-10mm
+[sh6]: https://www.v1e.com/collections/3dprinter-parts/products/gt2-10mm-belt
+[sh7]: https://www.v1e.com/collections/parts/products/limit-switch-endstop
+[sh8]: https://www.v1e.com/collections/lowrider-parts/products/bearings-608-2rs
+[sh9]: https://www.v1e.com/products/lowrider-v4-cnc-t8-leadscrews
+[sh10]: https://www.v1e.com/collections/lowrider-parts/products/5mm-to-8mm-flex-coupler
+[sh11]: https://www.v1e.com/products/150mm-mgn12h-linear-guides
+[sh12]: https://www.v1e.com/products/24v-power-supply
+[sh13]: https://www.v1e.com/collections/3dprinter-parts/products/0-5ml-threadlocker-242
+[sh14]: https://www.v1e.com/collections/3dprinter-parts/products/super-lube-silicone-lubricating-grease-with-syncolon-ptfe
+[az5]: https://amzn.to/4dRxh9L
+[az6]: https://amzn.to/48cO4mt
+[az7]: https://amzn.to/396oRzi
+[az8]: https://amzn.to/3FDI8EI
+[az9]: https://amzn.to/4eDgHLN
+[az10]: https://amzn.to/4etRhjC
+[az11]: https://amzn.to/3PyAujr
+[az12]: https://amzn.to/3TXtjoM
+[az13]: https://amzn.to/3GhaKmx
+[az14]: https://amzn.to/31H7yS6
+[az15]: https://amzn.to/47V20Ba
+[mak]: https://www.printables.com/model/1033926-makita-701-tool-mount-and-dust-shoe-for-the-lowrid
+[dew]: https://www.printables.com/model/1034374-dewalt-611-tool-mount-and-dust-shoe-for-the-lowrid
+[kob]: https://www.printables.com/model/1034828-kobalt-tool-mount-and-dust-shoe-for-the-lowrider-c
+[jac]: https://www.printables.com/model/1037842-jackpot-cnc-control-box-for-the-lowrider-4-cnc
+[skr]: https://www.printables.com/model/1051517-skr-pro-box-for-the-lowrider-4-cnc
+[sh1]: https://www.v1e.com/products/jackpot-cnc-controller
+[sh2]: https://www.v1e.com/collections/3dprinter-parts/products/nema-17-76oz-in-steppers
+[sh3]: https://www.v1e.com/products/wiring-kit-1
+[sh4]: https://www.v1e.com/collections/3dprinter-parts/products/pulley-16-tooth-gt2-10mm
+[az1]: https://www.elecrow.com/jackpot-cnc-controller.html
+[az2]: https://amzn.to/3FcxGlE
+[az3]: https://amzn.to/3BJMgov
+[az4]: https://amzn.to/3n9mUGM
